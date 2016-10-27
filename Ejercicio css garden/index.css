@@ -24,6 +24,8 @@ h3 {
 header h1 { 
     padding: 35px;
     background: transparent url(fondo.jpg);
+    background-repeat: no-repeat
+        
     margin-top: 10px;
 	height: 250px;
     text-indent: 100%;
