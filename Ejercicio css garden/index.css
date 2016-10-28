@@ -1,52 +1,45 @@
-html {
-	margin: 0;
-	padding: 0;
-	}
-body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
-	background: #90EE90; 
+body {  
 	margin: 0; 
 	padding: 0;
 	}
+.page-wrapper {
+     
+    background-size: cover;
+    height: auto;    
+}
+    
 p { 
 	margin-top: 0; 
 	text-align: justify;
 	}
+h1{
+    font-family: sans-serif;
+    text-align:center
+    font-size: 40px;  
+    background: url(fondo.jpg);
+    color: aliceblue;
+    display:cover
+    background-repeat: no-repeat;
+    font-size: 90px;
+    padding-bottom: 150px;
+    background-repeat:     
+}
+
 h3 { 
 	font-family: sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #FFA500;
+	color: #DB7093;
+    font-size: 25px;
 	}
 
-header h1 { 
-    padding: 35px;
-    background: transparent url(fondo.jpg);
-    background-repeat: no-repeat
-        
-    margin-top: 10px;
-	height: 250px;
-    text-indent: 100%;
-	overflow: hidden;
-	}
 header h2 { 
-	background: ; 
-	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
 	height: 18px; 
 	float: right;
-
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
 	}
-header {
-	padding-top: 20px;
-	height: 87px;
-}
 
 .summary {
 	clear: both; 
@@ -55,13 +48,9 @@ header {
 	float: left;
 	}
 
-
 .preamble {
 	clear: right; 
 	padding: 0px 10px 0 10px;
 	}
 
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
 
